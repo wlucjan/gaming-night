@@ -14,9 +14,9 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to gaming-night!"', () => {
+    it('should return "Welcome to web-api!"', () => {
       expect(service.getData()).toEqual({
-        message: 'Welcome to gaming-night!',
+        message: 'Welcome to web-api!',
       });
     });
   });
