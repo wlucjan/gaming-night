@@ -1,0 +1,5 @@
+####
+# @name ping
+GET http://{{domain}}:{{port}}/api/{{version}}/events/ping
+
+{}
